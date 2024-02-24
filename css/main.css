@@ -1,0 +1,74 @@
+body{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid darkblue;
+    font: 20px/1.5  bolder normal small-caps arial, sans-serif;
+
+}
+
+.structural{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+h1{
+    color: darkred;
+    font-size: 30px;
+}
+h2{
+    color: orange;
+    font-size: 15px;
+
+}
+main{
+    height: 70vh;
+}
+img{
+    border: 5px solid black;
+    width: 90%;
+    height: 80%;
+}
+figure{
+    background-color: orange;
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#A1{
+    float: left;
+}
+#A2{
+    float: right;
+}
+section{
+    clear: both;
+    
+}
+figcaption{
+    font-weight: bold;
+    font-size: medium;
+    color: brown;
+    padding: 5px;
+}
+ul > li > a{
+    color: purple;
+}
+a:hover{
+    color: yellow;
+}
+ul li{
+    list-style: square;
+    line-height: 2;
+}
+
+header, footer{
+
+background-color: gold;
+
+}
